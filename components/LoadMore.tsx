@@ -19,7 +19,7 @@ function LoadMore() {
      fetchAnime(page).then(res=>setData([...data,...res]));
      page++;
    }
- },[inView,page])
+ },[inView,page,data])
 
   return (
     <>

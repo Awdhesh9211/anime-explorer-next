@@ -12,8 +12,4 @@ const nextConfig = {
 
 
 
-module.exports ={
-  output: 'export',
-   nextConfig
-  
-  }
+module.exports = nextConfig;
